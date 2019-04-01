@@ -1,0 +1,22 @@
+#!/bin/bash
+path=$(pwd)
+destino=$path/tmp/usuarios
+
+#quiero que quede en la carpeta pero siga el ejercicio
+$(mkdir tmp)
+$(cd tmp)
+$(mkdir usuarios)
+$(mv usuarios tmp)
+
+users=$(cut -f 1 -d ':' /etc/passwd)
+uid=$(cut -f 3 -d ':' /etc/passwd)
+
+counter=1
+while [ $counter -eq $(wc -l /etc/passwd) ]
+do
+   echo $counter
+   ((count
+done
+
+echo $destino
+
