@@ -1,1 +1,3 @@
-mirar ej ejercicio 3 que no lo hice pero lo vi echo
+consultar ejercicio 4
+falta el 6 y el 7
+3r.sh
